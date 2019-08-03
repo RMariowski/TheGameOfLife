@@ -1,0 +1,22 @@
+{
+  "name": "the-game-of-life",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "webpack --mode development && webpack-dev-server --mode development",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "build": "webpack --mode production"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "expose-loader": "^0.7.5",
+    "phaser": "^3.18.1",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
