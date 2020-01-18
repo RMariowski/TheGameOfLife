@@ -1,6 +1,10 @@
 {
   "name": "the-game-of-life",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Radosław Mariowski",
+  "description": "",
+  "license": "MIT",
+  "keywords": [],
   "scripts": {
     "start": "webpack --mode development && webpack-dev-server --mode development",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
