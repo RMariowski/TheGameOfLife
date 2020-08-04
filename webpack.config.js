@@ -5,8 +5,8 @@ var phaser = path.join(pathToPhaser, 'dist/phaser.js');
 module.exports = {
   entry: './src/game.ts',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'game.js',
+    path: __dirname + '/dist/',
+    filename: 'game.js'
   },
   module: {
     rules: [
@@ -15,8 +15,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, './'),
-    publicPath: '/dist/',
+    contentBase: __dirname + '/dist/',
     host: '127.0.0.1',
     port: 8901,
     open: true
